@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #191919;
+}
+
+.card {
+    height: 30rem;
+    width: 25rem;
+    border-radius: 1rem;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    height: 15rem;
+    width: 20rem;
+    background-image: url(peakpx.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    filter: drop-shadow(0 0 2px #000);
+}
+
+.req {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+
+}
+
+.acc,
+.remove {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+}
+
+.remove {
+    background: rgb(227, 95, 46);
+    color: white;
+}
+
+.acc {
+    background: #40c640;
+    color: white;
+}
